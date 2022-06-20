@@ -1,0 +1,40 @@
+# See https://upptime.js.org/docs/configuration
+
+owner: trynoice
+repo: status
+
+sites:
+  - name: API
+    url: https://api.trynoice.com/health
+  - name: CDN
+    url: https://cdn.trynoice.com/health
+  - name: Website
+    url: https://trynoice.com
+
+assignees: # Users to assign downtime issues (optional)
+  - ashutoshgngwr
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  cname: status.trynoice.com
+  # baseUrl: /your-repo-name
+  logoUrl: https://raw.githubusercontent.com/trynoice/.github/main/graphics/icon-round.png
+  favicon: https://raw.githubusercontent.com/trynoice/.github/main/graphics/favicon-32x32.png
+  name: "Noice: Natural calming noise"
+  introTitle: Relax and improve focus with natural calming noise.
+  introMessage: Noice API, CDN and Website service status.
+  navbar:
+    - title: Home
+      href: https://trynoice.com
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/trynoice
+  metaTags:
+    - name: "robots"
+      content: "noindex"
+
+commitMessages:
+  commitAuthorName: "Noice Bot"
+  commitAuthorEmail: "107856616+noice-bot@users.noreply.github.com"
