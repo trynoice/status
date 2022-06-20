@@ -38,3 +38,11 @@ status-website:
 commitMessages:
   commitAuthorName: "Noice Bot"
   commitAuthorEmail: "107856616+noice-bot@users.noreply.github.com"
+
+i18n:
+  footer: |
+    &copy; 2022, all rights reserved.<br/>
+    Made with ♥ in India.
+
+    This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org).<br/>
+    [White Noise icon by Juraj Sedlák](https://thenounproject.com/icon/white-noise-1287855/)
